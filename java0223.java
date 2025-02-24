@@ -119,4 +119,36 @@ Integer number = 20;
 Character paizaRank= 'S';
 String name= "なんとか";
 
+//=====================データ
+// integer型＋ー21億範囲
+Integer money= 10000;
+// Long 型 ＋ー900京の範囲
+//大きな整数
+Long population= 12560000L;
+// Short 型
+// 約＋ー3.2万の範囲の整数を表す
+// 小さな整数
+Short age = 20;
+// Byte 型
+// 約＋ー128の範囲の整数を表す
+// とても小さい整数
+Byte month=  4;
+// Double型
+// 約＋ー1.8X10＾308〜約＋ー4.9X10＾324の範囲の小数を表す
+// とても小さい整数
+Double pi=3.14159265359;
+//Float型
+// 約＋ー3.4.8X10＾38〜約＋ー1.4X10＾-45の範囲の小数を表す
+// とても小さい整数
+Float height=173.5F;
+// 少し曖昧でも良い小数
+// 末尾にFまた（f）をつける
+// Boolean型
+// 真偽値を表す。
+Boolean result = true;
+
+Boolean isEmpty = false;
+
+
+
 
