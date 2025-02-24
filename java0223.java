@@ -152,3 +152,54 @@ Boolean isEmpty = false;
 
 
 
+public class Main {
+    public static void main(String... args) {
+        final Integer money = 1000;
+        money = 20;
+        System.out.println(money);
+    }
+}
+// :finalを使った定数の宣言
+// Main.java:4: error: cannot assign a value to final variable money
+//         money=20;
+//         ^
+// 1 error
+// public class Main {
+//     public static void main(String... args) {
+//         Integer x = 10 + 10;
+//         System.out.println(x);
+        
+//     }
+// }
+public class Main {
+    public static void main(String... args) {
+        Integer x = 10 + 10;
+        System.out.println(x);
+        
+        String w = "こんにちは" + "世界";
+        System.out.println(w);
+    }
+}
+
+public class Main {
+    public static void main(String... args) {
+        Integer price = 200;
+         Integer total=price *5;
+         System.out.println(total);
+
+    }
+}
+
+public class Main {
+    public static void main(String... args) {
+        Integer price = 200;
+         Integer total=price *5;
+         System.out.println(total);
+        String priduct="りんご";
+        System.out.println(priduct+"です");
+        System.out.println(priduct+"値段は"+ total +"です");
+        
+    }
+}
+
+
