@@ -108,3 +108,15 @@ public class Main {
         
     }
 }
+//============================データ型
+String company = "paiza";
+Integer number = 20;
+//============================データ型
+//Character型         String型
+//1文字を表す              文字列(０文字以上文字の集まりを表す)
+//シングルクオーテーション   ダブルクオーテーション
+
+Character paizaRank= 'S';
+String name= "なんとか";
+
+
