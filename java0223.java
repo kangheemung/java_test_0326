@@ -234,3 +234,19 @@ Integer q = 2;
         
     }
 }
+public class Main {
+    public static void main(String... args) {
+        Integer x = 1;
+
+        System.out.println(x);
+    }
+}
+public class Main {
+    public static void main(String... args) {
+        Integer x = 1;
+            x  +=3;//x=x+3;と同じ
+        System.out.println(x);
+    }
+}
+
+
