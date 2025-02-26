@@ -293,3 +293,23 @@ public class Main {
 }
 
 
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+        ArrayList<String>fruits_copy = new ArrayList<>(fruits);
+        System.out.println("追加前fruits：" + fruits);
+        System.out.println("追加前fruits_copy：" + fruits_copy);
+
+        fruits_copy.add("grape");
+        System.out.println("追加後fruits：" + fruits);
+        System.out.println("追加後fruits_copy：" + fruits);
+    }
+}
+
+
