@@ -206,9 +206,9 @@ public class Main {
         final Double tax = 1.1; // 消費税率を10%に設定
         Integer applePrice = 100; // リンゴ1個の価格を設定
         Integer numOfApples = 5; // 購入するリンゴの個数を設定
-        
+
         Double totalPrice = (applePrice * numOfApples) *  tax; // 税込価格を計算
-        
+
         System.out.println(totalPrice);
     }
 }
@@ -228,10 +228,9 @@ public class Main {
     public static void main(String... args) {
         Integer i = 1;
         System.out.println(i);
-Integer q = 2;
+        Integer q = 2;
         System.out.println(q);
         // 以下にコードを追加
-        
     }
 }
 public class Main {
@@ -244,8 +243,52 @@ public class Main {
 public class Main {
     public static void main(String... args) {
         Integer x = 1;
-            x  +=3;//x=x+3;と同じ
+            x  +=3;//x=x+3;と同じ複合代入演算子
         System.out.println(x);
+    }
+}
+
+public class Main {
+    public static void main(String... args) {
+        String w = "paiza";
+        System.out.println(w);
+        String s = "paiza";
+        s += "learning";
+        System.out.println(s);
+        // 以下にコードを追加
+    }
+}
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(8);
+        numbers.add(1);
+        numbers.add(3);
+        // 以下にコードを追加
+        Collections.sort(numbers);
+        Collections.reverse(numbers);
+        
+        System.out.println(numbers);
+    }
+}
+
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+
+        System.out.println("fruits：" + fruits);
+        ArrayList<String>fruits_copy = new ArrayList<>(fruits);
     }
 }
 
