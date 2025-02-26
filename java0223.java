@@ -201,5 +201,36 @@ public class Main {
         
     }
 }
+public class Main {
+    public static void main(String... args) {
+        final Double tax = 1.1; // 消費税率を10%に設定
+        Integer applePrice = 100; // リンゴ1個の価格を設定
+        Integer numOfApples = 5; // 購入するリンゴの個数を設定
+        
+        Double totalPrice = (applePrice * numOfApples) *  tax; // 税込価格を計算
+        
+        System.out.println(totalPrice);
+    }
+}
 
 
+public class Main {
+    public static void main(String... args) {
+        final Double tax = 1.1;
+        Integer book = 1000;
+      System.out.println("本の定価は"+book+"円です");
+     System.out.println("本の税込価格は"+(book*tax)+"円です");
+
+
+    }
+}
+public class Main {
+    public static void main(String... args) {
+        Integer i = 1;
+        System.out.println(i);
+Integer q = 2;
+        System.out.println(q);
+        // 以下にコードを追加
+        
+    }
+}
