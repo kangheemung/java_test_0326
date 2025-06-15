@@ -6,12 +6,17 @@ class Sample {
             System.out.println(i + "番目の要素: " + args[i]);
         }
     }
-    public static void main1s(String[] args) {
-        seihoukei(5); // 出力結果) 25
-        shikaku(3, 5); // 出力結果 15
-        // seihoukei(); // 引数不足コンパイルエラー
-        // shikaku(3); // 引数不足コンパイルエラー
+        public static void main(String[] args) {
+        // コマンドライン引数が2つであれば処理を行います
+        if (args.length == 2) {
+            // args[0], args[1]が整数値でないと実行時にエラー
+            int sum = Integer.parseInt(args[0]) + Integer.parseInt(args[1]);
+            System.out.println("変数sum: " + sum);
+        } else {
+            System.out.println("引数を２つセットしてください");
+        }
     }
+
     public static void seihoukei(int side) {
         System.out.println("四角形の面積: " + side * side);
     }
