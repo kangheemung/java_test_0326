@@ -19,4 +19,21 @@ class Execution {
         System.out.println(calc.num1 + " " + calc.operator + " " + calc.num2 + " = " + calc.answer);
     }
 }
+//サンプルソース
+// class Calculation {
+//     public String operator = "+";
+//     public int num1 = 10;
+//     public int num2 = 5;
+// }
 
+// class Execution {
+//     public static void main(String[] args) {
+//         Calculation calc = new Calculation();
+//         System.out.println(calc.num1 + " " + calc.operator + " " + calc.num2 + " = " + (calc.num1 + calc.num2));
+
+//         // 1 行で長くて見にくいコードは途中で改行しても同じように表示できます。
+//         System.out.println(calc.num1 + " " + calc.operator + " "
+//                 + calc.num2 + " = " + (calc.num1 + calc.num2));
+
+//     }
+// }
