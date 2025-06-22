@@ -14,3 +14,13 @@ public class Calculation {
         return num1 + num2;
     }
 }
+
+public class Execution {
+    public static void main(String[] args) {
+        Calculation calc = new Calculation();
+        
+        int result = calc.add(5, 3);
+        System.out.println("Addition result: " + result);
+    }
+}
+
