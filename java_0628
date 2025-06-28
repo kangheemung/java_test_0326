@@ -1,0 +1,18 @@
+class Person{
+    public String name;
+    public String getName(){
+        return this.name;
+    }
+    public String setName(String name) {
+        this.name = name;
+    }
+}
+class Teacher extents Person{
+    public String subject;
+    public String getSubject() {
+        return this.subject;
+    }
+    public void setSubject() {
+        this.subject = subject;s
+    }
+}
