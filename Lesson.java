@@ -1,6 +1,7 @@
 // Personクラスを修正して、コンストラクタを追加する
 class Person {
     protected String name; // 名前
+    protected int age;
 
     // コンストラクタを定義
     public Person(String name) {
@@ -11,8 +12,8 @@ class Person {
         return this.name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 }
 
@@ -28,7 +29,6 @@ class Teacher extends Person {
     public String getSubject() {
         return this.subject;
     }
-
     public void setSubject(String subject) {
     this.subject = subject;
     }
