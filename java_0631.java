@@ -3,6 +3,15 @@ class Main{
         Person person1 = new Person();
         person1.setName("太郎");
         person1.setAge(10);
+        Person person2 = new Person();
+        person1.setName("花子");
+        person1.setAge(10);
+
+        person1.showFields();
+        person2.showFields();
+        Person person_Kang = new Person("kang");
+        person_Kang.setName();
+
     }
 }
 class Person{
